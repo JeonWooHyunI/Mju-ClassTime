@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&letterSpacing=0&pause=1000&center=true&vCenter=true&random=false&width=435&lines=MJU-ClassTime)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&letterSpacing=0&pause=1000&center=false&vCenter=true&random=false&width=435&lines=MJU-ClassTime)
 ====
 
 This code is designed to parse semester-specific class information in the MJU academic information system.
@@ -11,7 +11,7 @@ Supported operating systems :
 ---
  The MIT License
 
-Copyright (c) 2024 JeonWooHYun
+Copyright (c) 2024 JeonWooHyun
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
