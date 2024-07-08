@@ -1,5 +1,5 @@
 """
-MJU-ClassTime (VERSION 1.0.0)
+MJU-ClassTime (VERSION 1.0.1)
 [Dev]
 -JeonWooHyun (MJU 경영대학 1학년)
 [주요기능]
@@ -50,7 +50,7 @@ def loading():
     console.print('| $$\\  $ | $$| $$  | $$| $$  | $$        | $$    $$| $$ /$$__  $$ \\____  $$\\____  $$| $$   | $$| $$ | $$ | $$| $$_____/', style="#af00ff")
     console.print('| $$ \\/  | $$|  $$$$$$/|  $$$$$$/        |  $$$$$$/| $$|  $$$$$$$ /$$$$$$$//$$$$$$$/| $$   | $$| $$ | $$ | $$|  $$$$$$$', style="#af00ff")
     console.print('|__/     |__/ \\______/  \\______/          \\______/ |__/ \\_______/|_______/|_______/ |__/   |__/|__/ |__/ |__/ \\_______/', style="#af00ff")
-    console.print(Panel.fit('MJU-ClassTime (Version 1.0.0) Made by JeonWooHyun', style="#009F8C"))    
+    console.print(Panel.fit('MJU-ClassTime (Version 1.0.1) Made by JeonWooHyun', style="#009F8C"))    
     print('\n 5초 뒤 실행됩니다. . .')         
     time.sleep(5)                                                                                                          
     clear_terminal()
