@@ -1,7 +1,7 @@
 ![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=40&letterSpacing=0&pause=1000&center=true&vCenter=true&random=false&width=435&lines=MJU-ClassTime)
 ====
 
-This code is designed to parse semester-specific class information in the Myongji University academic information system.
+This code is designed to parse semester-specific class information in the MJU academic information system.
 
 Supported operating systems :
 
