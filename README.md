@@ -3,6 +3,8 @@
 
 This code is designed to parse semester-specific class information in the MJU academic information system.
 
+And this project is related to the 명지대학교_스터디_매칭 service.
+
 Supported operating systems :
 
 ![Typing SVG](https://img.shields.io/badge/mac%20os-000000?style=for-the-badge&logo=apple&logoColor=white)
