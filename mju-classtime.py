@@ -31,7 +31,7 @@ def loading():
     console.print(Panel.fit('MJU-ClassTime (Version 1.0.0) Made by JeonWooHyun', style="#009F8C"))    
     print('\n 5초 뒤 실행됩니다. . .')         
     time.sleep(5)                                                                                                          
-    os.system('cls')
+    clear_terminal()
     setting()
 
 def setting():
@@ -44,7 +44,7 @@ def setting():
     console.print('**사용자-토큰-획득.txt에 따라 쿠키를 추출한 후 아래에 입력해주시기 바랍니다.')
     student_cookie = Prompt.ask('Cookie') #쿠키 획득
     student_csrf = Prompt.ask('Csrf') #Csrf 획득
-    os.system('cls')
+    clear_terminal()
     console.print(Panel.fit('추출하시려는 학기&수업정보를 입력해주시기 바랍니다.'), style="red")
     console.print(Panel.fit('[학과코드] **문서참조'), style="#2CEEBE")
     Yer = Prompt.ask('년도(4자리)', default="2024")
@@ -134,5 +134,11 @@ def json_saving(filename, data):
         for item in data:
             json.dump(item, f, ensure_ascii=False, indent=4)  # 객체를 JSON 문자열로 변환하여 파일에 쓰기
             f.write(',\n')
+
+def clear_terminal():
+     if os.name == 'nt': 
+        os.system('cls')
+     else:
+        os.system('clear')
 
 loading()
